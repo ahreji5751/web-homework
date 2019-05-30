@@ -1,0 +1,42 @@
+.timer {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: white;
+  font-family: Roboto, sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.timer__title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 100;
+  color: #aaaaaa;
+  margin-bottom: 10px;
+}
+
+.timer__digits-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer__digit {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  min-width: 45px;
+  border-radius: 5px;
+}
+
+.timer__dots {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+}
